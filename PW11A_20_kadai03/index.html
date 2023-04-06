@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Cafe De Parisのサイトです。">
+  <meta name="keywords" content="パリ,カフェ">
+  <title>Cafe De Paris</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="./jquery-3.6.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'crk3wtl',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+
+    (function (d) {
+      var config = {
+        kitId: 'crk3wtl',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <!-- <div class="main_navcolor"> -->
+      <nav class="main_nav">
+        <div class="logomain">
+          <a href="index.html"> <img class="logo" src="./images/logo.png" alt="ロゴ"><img class="gif"
+              src="./images/logo.gif" alt="ロゴ"></a>
+
+        </div>
+        <ul>
+          <li class="blue"> <a href="#area-1"><img src="./images/about.png" alt="about">
+
+              <p class="border">ABOUT</p>
+            </a></li>
+          <li class="gray"><a href="#area-2"><img src="./images/menu.png" alt="access">
+
+              <p class="white">MENU</p>
+            </a></li>
+          <li class="red"><a href="#area-3"><img src="./images/access.png" alt="menu">
+
+              <p>ACCESS</p>
+            </a></li>
+        </ul>
+      </nav>
+      <!-- </div> -->
+    </header>
+    <main>
+      <div id="main-visual-img">
+        <img class="main_visual" src="./images/main_visual.png" alt="メインビジュアル">
+
+      </div>
+      <div class="sub_img">
+        <img class="visual2" src="./images/red_blue.png" alt="">
+        <img class="visual3" src="./images/sub_visual.png" alt="">
+
+      </div>
+
+      <div class="box_obj">
+        <h2>Cafe <span>de</span> enjoy</h2>
+        <h1>ランチタイムに<br>いかがですか？</h1>
+        <img src="./images/box.png" alt="">
+        <div>
+
+        </div>
+
+      </div>
+
+    </main>
+    <!-- コンテンツ -->
+    <div class="about" id="area-1">
+      <div class="yazirusi"><img src="./images/yazirusi.png" alt=""></div>
+      <div class="about_img"><img src="./images/top.png" alt=""></div>
+      <div class="text">
+        <h2> <span>a</span>bout</h2>
+        <h1 class="element">カフェド・パリとは？</h1>
+        <p class="element">当店は飲食店を運営しており、<br>
+          朝は6:00から夜は22:00まで営業を行っております。<br>
+          朝食から定番の日替わりランチまでお気軽に来店して頂けるのが特徴です。
+        </p>
+        <p class="element">立地条件も西新宿となり交通の便も良くショッピングの際に立ち寄って頂けます。<br>
+          早朝6時からオープン!!ランチタイムは、<br>
+          定番のパスタやカレーなどの日替わりランチがおすすめ!!<br>
+        </p>
+
+        <p class="element">西新宿だから交通の便もよく、<br>
+          お集まり・ショッピングなどにも最適! お二人だけのランチタイムにいかがですか。
+        </p>
+      </div>
+      <div class="yazirusi2"><img src="./images/yazirusi2.png" alt=""></div>
+      <div class="about_img"><img src="./images/bottom.png" alt="">
+      </div>
+    </div>
+
+    <div class="menyu" id="area-2">
+
+      <div class="left">
+        <div class="js-image">
+          <h1 class="morning_menu">Morning</h1>
+          <div class="morning_title">
+            <div class="marning_title_wrapper">
+              <img class="text_box" src="./images/text_box.png" alt="朝食タイトル">
+              <h1>朝食メニュー</h1>
+              <p>今朝取れたての野菜でお作りしております。<br>
+                安心して美味しくいただけます。</p>
+            </div>
+          </div>
+          <img class="morning_photo" src="./images/Morning_img.png" alt="朝食写真">
+        </div>
+
+
+        <div class="git-image">
+          <h1 class="morning_menu2">Lunch</h1>
+          <div class="morning_title">
+            <div class="marning_title_wrapper">
+              <img class="text_box" src="./images/text_box.png" alt="昼食タイトル">
+              <h1>昼食メニュー</h1>
+              <p>今朝取れたての野菜でお作りしております。<br>
+                安心して美味しくいただけます。</p>
+            </div>
+          </div>
+          <img class="morning_photo" src="./images/lunch.jpg" alt="昼食写真">
+        </div>
+        <div class="left access-image">
+          <h1 class="morning_menu3">Access</h1>
+          <div class="morning_title">
+            <div class="marning_title_wrapper">
+              <img class="text_box" src="./images/text_box.png" alt="昼食タイトル">
+              <a href="#">
+                <h1>予約はこちら</h1>
+              </a>
+              <p>お待ちしております。</p>
+            </div>
+          </div>
+          <img class="morning_photo" src="./images/Access_img.png" alt="昼食写真">
+        </div>
+      </div>
+
+
+      <div class="right">
+
+        <div class="text2">
+          <div id="text2-menu">
+            <h2> <span>M</span>enu</h2>
+          </div>
+          <h1>BACON&amp;EGG</h1>
+        </div>
+
+
+        <div class="list_wrap">
+
+          <div class="list_title element">
+            <div class="kakoi">
+              <h2 class="name">自家製<br><span class="bacon_line">ベーコン<span class="egg_text">エッグ</span><span>朝食<span><span>
+              </h2>
+              <p>特選ベーコンと自家製<br>
+                卵は相性抜群！</p>
+
+              <div class="cash">
+                <div class="kakaku">
+                  <p>本体<br>
+                    価格<br>
+                    <span>&yen;</span>
+                  </p>
+                </div>
+                <h2 class="black">950</h2>
+              </div>
+            </div>
+            <div class="menu_img">
+
+
+              <img src="./images/bacon.png" alt="">
+
+
+            </div>
+
+          </div>
+
+          <div class="list_title2 element">
+
+            <div class="menu_img2">
+
+              <img src="./images/egg.png" alt="">
+
+            </div>
+
+            <div class="kakoi">
+              <h2 class="name">自家製<br><span class="bacon_line">チーズトマト<span>バーガー</span></span></h2>
+              <p>出来立てモッツアレラと<br>
+                自家製トマトは相性抜群！</p>
+
+              <div class="cash">
+                <div class="kakaku">
+                  <p>本体<br>
+                    価格<br>
+                    <span>&yen;</span>
+                  </p>
+                </div>
+                <h2 class="black2">850</h2>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+          <div class="text2">
+
+            <h1>BAGEL&amp;COFFEE</h1>
+          </div>
+
+
+          <div class="list_wrap">
+
+            <div class="list_title3 element">
+              <div class="kakoi">
+                <h2 class="name">自家製<br><span class="bacon_line">ベーグル<span
+                      class="egg_text"><span>セット</span></span><span>
+                </h2>
+                <p>シンプルが美味しい<br>
+                  できたてパン！</p>
+
+                <div class="cash">
+                  <div class="kakaku">
+                    <p>本体<br>
+                      価格<br>
+                      <span>&yen;</span>
+                    </p>
+                  </div>
+                  <h2 class="black">950</h2>
+                </div>
+              </div>
+              <div class="menu_img3">
+
+
+                <img src="./images/bagel.png" alt="">
+
+
+              </div>
+
+            </div>
+
+            <div class="list_title4 element">
+
+              <div class="menu_img4">
+
+                <img src="./images/COFFEE.png" alt="">
+
+              </div>
+
+              <div class="kakoi">
+                <h2 class="name">自家製コーヒー<br><span class="bacon_line">ラテアート<span>付き</span></span></h2>
+                <p>定番コーヒーに<br>
+                  オリジナルブレンド</p>
+
+                <div class="cash">
+                  <div class="kakaku">
+                    <p>本体<br>
+                      価格<br>
+                      <span>&yen;</span>
+                    </p>
+                  </div>
+                  <h2 class="black2">250</h2>
+                </div>
+              </div>
+
+            </div>
+            <div class="text2">
+              <h1>PASTA&amp;SOUP</h1>
+            </div>
+            <div class="list_title3 element">
+              <div class="kakoi">
+                <h2 class="name">自家製<br><span class="bacon_line">あさりトマト<span
+                      class="egg_text"><span>セット</span></span><span>
+                </h2>
+                <p>あさりの旨味！<br>
+                  自家製面パスタ</p>
+
+                <div class="cash">
+                  <div class="kakaku">
+                    <p>本体<br>
+                      価格<br>
+                      <span>&yen;</span>
+                    </p>
+                  </div>
+                  <h2 class="black">850</h2>
+                </div>
+              </div>
+              <div class="menu_img5">
+
+
+                <img src="./images/pasta.png" alt="">
+
+
+              </div>
+
+            </div>
+            <div class="list_title4 element">
+
+              <div class="menu_img6">
+
+                <img src="./images/soup.png" alt="">
+
+              </div>
+
+              <div class="kakoi">
+                <h2 class="name">自家製コーン<br><span class="bacon_line">あったか<span>スープ</span></span></h2>
+                <p>とろ～りなめらか<br>
+                  王道コーンポタージュ</p>
+
+                <div class="cash">
+                  <div class="kakaku">
+                    <p>本体<br>
+                      価格<br>
+                      <span>&yen;</span>
+                    </p>
+                  </div>
+                  <h2 class="black2">250</h2>
+                </div>
+              </div>
+
+            </div>
+            <div class="text2">
+              <h1>PIZZA&amp;FLAKE</h1>
+            </div>
+            <div class="list_title3 element">
+              <div class="kakoi">
+                <h2 class="name"><span class="bacon_line">チーズたっぷり<br><span
+                      class="egg_text">石窯焼き<span>ピザ</span></span><span>
+                </h2>
+                <p>特選チーズと自家製<br>
+                  トマトは相性抜群！</p>
+
+                <div class="cash">
+                  <div class="kakaku">
+                    <p>本体<br>
+                      価格<br>
+                      <span>&yen;</span>
+                    </p>
+                  </div>
+                  <h2 class="black">1050</h2>
+                </div>
+              </div>
+              <div class="menu_img5">
+
+
+                <img src="./images/pizza.png" alt="">
+
+
+              </div>
+
+            </div>
+            <div class="list_title4 element">
+
+              <div class="menu_img6">
+
+                <img src="./images/freak.png" alt="">
+
+              </div>
+
+              <div class="kakoi">
+                <h2 class="name">フルーツたっぷり<br><span class="bacon_line">低糖質<span>フルグラ</span></span></h2>
+                <p>ざくざくとした食感<br>
+                  味覚のハーモニー！</p>
+
+                <div class="cash">
+                  <div class="kakaku">
+                    <p>本体<br>
+                      価格<br>
+                      <span>&yen;</span>
+                    </p>
+                  </div>
+                  <h2 class="black2">450</h2>
+                </div>
+              </div>
+
+            </div>
+            <div class="text3" id="area-3">
+              <div id="text3-menu">
+                <h2> <span>A</span>ccess</h2>
+              </div>
+
+            </div>
+            <div class="map element">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12961.547969774323!2d139.7043478!3d35.6920933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdfe79a7ff774974c!2zQ2Fmw6kgUHJ1bmllciBQYXJpcyDkvIrli6LkuLnmlrDlrr8!5e0!3m2!1sja!2sjp!4v1670508260357!5m2!1sja!2sjp"
+                width="600" height="450"
+                style="border:0;filter:saturate(150%);-webkit-filter:saturate(150%);filter:hue-rotate(330deg);-webkit-filter:hue-rotate(330deg)"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="table_1">
+              <table class="element">
+
+                <tr>
+                  <th class="color">OPEN</th>
+                  <th>月～金</th>
+                  <th>11:00~21:00(L.o.20:00)</th>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td> 土 </td>
+                  <td> 11:00~19:00(L.o.18:00)</td>
+                </tr>
+                <tr class="bottom_line
+                ">
+                  <td class="color2">CLOSED</td>
+                  <td>日・祝</td>
+
+                </tr>
+              </table>
+              <div class="border_bottom element"></div>
+              <table class="border_none element">
+
+                <tr>
+
+                  <th>ADDRESS</th>
+                  <th>105-6203 東京都港区愛宕2-5-1<br>
+                    愛宕グリーンヒルズ MORIタワー3階</th>
+
+                </tr>
+                <tr>
+                  <td>TEL</td>
+                  <td>03-5422-1131</td>
+                </tr>
+                <tr>
+                  <td>MAIL</td>
+                  <td>paridecafe.info@gmail.com</td>
+
+                </tr>
+              </table>
+
+
+
+
+            </div>
+            <div class="text4">
+              <div id="text4-menu">
+                <h2> <span>N</span>ews</h2>
+              </div>
+            </div>
+            <!-- <div class="table_1 element">
+              <table class="News">
+
+                <tr> <a href="#"></a>
+                  <th class="color"> <a href="http://#">2018年10月11日 </a></th>
+                  <th class="footer_hover"> <a href="http://#">新規サイトオープン企画 Webサイトを見て特製ケーキをもらおう!</a></th>
+                  </a>
+                </tr>
+
+
+
+                <td class="brown"> <a href="http://#">2018年10月11日</a></td>
+                <td class="footer_hover"> <a href="http://#">新作マカロン登場!!</a></td>
+                </tr></a>
+
+                <tr>
+
+                  <td class="color2"> <a href="http://#">2018年10月10日</a></td>
+                  <td class="footer_hover"><a href="http://#">お待たせ致しました!カフェ・ド・パリWebサイトをオープン致しました。</a></td>
+                  </a>
+                </tr>
+                </a>
+              </table>
+
+            </div> -->
+            <div class="table_1 News_object element">
+              <div class="day_obj">
+                <div class="day">
+                  <p>2018年10月11日</p>
+                </div>
+                <p class="footer_hover"> <a href="http://#">新規サイトオープン企画 Webサイトを見て特製ケーキをもらおう!</a></p>
+              </div>
+
+              <div class="day_obj">
+                <div class="day2">
+                  <p>2018年10月11日</p>
+                </div>
+                <p class="footer_hover"> <a href="http://#">新作マカロン登場!!</a></p>
+              </div>
+
+              <div class="day_obj">
+                <div class="day">
+                  <p>2018年10月10日</p>
+                </div>
+                <p class="footer_hover"> <a href="http://#">お待たせ致しました!カフェ・ド・パリWebサイトをオープン致しました。</a></p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div> <!-- //listwrap -->
+
+
+
+      </div>
+    </div>
+    <footer class="footer_2">
+
+      <div class="awesome">
+        <a href="#" target="_blank" rel="norefferrer"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+      </div>
+
+      <p class="copyright">
+        &copy;2022 Cafe de paris. All Rights Reserved.
+      </p>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
